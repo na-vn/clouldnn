@@ -2,7 +2,7 @@
 
 While browsing on which platform to choose to learn my certification on. I signed into aws.training and found they have wonderful resources.
 
-I've been doing a few modules fomr this learning forum also.
+I've been doing a few modules from this learning forum also.
 
 ![](../.gitbook/assets/screenshot-from-2020-11-05-21-53-17.png)
 
