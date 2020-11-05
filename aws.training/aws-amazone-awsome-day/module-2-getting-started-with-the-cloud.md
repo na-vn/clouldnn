@@ -1,6 +1,6 @@
 # Module 2: Getting started with the Cloud
 
-175 service
+175 service with AWS Cloud
 
 infrastructure, resource compute storage and network platform databases analytic develop manage tools enterprise application
 
