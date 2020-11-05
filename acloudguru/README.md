@@ -6,7 +6,7 @@ I've been been looking at different certifications from AWS, Azure, Google Cloud
 
 I will be starting with the AWS Cloud Practitioner certification which has 10 hours of content, 52 total lessons, 4 quizzes, 1 practice exam.
 
-
+![](../.gitbook/assets/image%20%285%29.png)
 
 ![](../.gitbook/assets/image.png)
 
