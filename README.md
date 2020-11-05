@@ -4,3 +4,9 @@ I have over 8 years’ experience in the Information Technology & Services indus
 
 This is a blog to document my journey with my AWS Cloud Practionor
 
+I've decided to use acloudguru as my learning platform and will be documenting my learnings through here.
+
+
+
+
+
