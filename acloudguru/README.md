@@ -8,5 +8,5 @@ I will be starting with the AWS Cloud Practitioner certification which has 10 ho
 
 
 
-![](.gitbook/assets/image.png)
+![](../.gitbook/assets/image.png)
 
