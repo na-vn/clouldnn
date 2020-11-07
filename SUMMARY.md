@@ -4,6 +4,7 @@
 * [acloudguru](acloudguru/README.md)
   * [AWS Cloud Practioner](acloudguru/aws-cloud-practioner.md)
 * [AWS.training](aws.training/README.md)
+  * [Launch a Linux Virtual Machine](aws.training/launch-a-linux-virtual-machine.md)
   * [Host a Static Website](aws.training/host-a-static-website.md)
 * [AWsome day Modules](aws-amazone-awsome-day/README.md)
   * [Module 3: Building in the cloud](aws-amazone-awsome-day/module-3-building-in-the-cloud.md)
