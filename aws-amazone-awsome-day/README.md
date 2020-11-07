@@ -1,4 +1,4 @@
-# AWS Amazon AWsome day
+# AWsome day Modules
 
 I have signed up to amazon.com with my personal account and showed interest with learning courses. I've stumbled on some free webinars. One of them was held virtually last week on Tuesday 4th November 2020.
 
