@@ -103,7 +103,7 @@ After you create a user pool, create an app client.
 *     This module \(module 2\), Step 4. Add a user and application in AWS SSO, when you specify a value for **Application ACS URL**.
 *     In Module 5, Step 2. Update the config.js file, when you specify a value for **authURL**.
 
-28lkltk1298nlr52ufiscerk1s
+APP client ID28lkltk1298nlr52ufiscerk1s
 
 **.auth.ap-southeast-2.amazoncognito.com**
 
