@@ -2,6 +2,7 @@
 
 * [Home](README.md)
 * [AWS Testing Environments](aws.training/README.md)
+  * [Set up a Continuous Deployment Pipeline](aws.training/set-up-a-continuous-deployment-pipeline.md)
   * [Backup files to Amazon S3](aws.training/backup-files-to-amazon-s3.md)
   * [End User Computing Dashboard Workshop](aws.training/end-user-computing-dashboard-workshop.md)
   * [Host a Static Website](aws.training/host-a-static-website.md)
