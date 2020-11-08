@@ -1,3 +1,8 @@
+---
+description: >-
+  https://aws.amazon.com/getting-started/hands-on/euc-dashboard/module-5/?refid=gs_card
+---
+
 # End User Computing Dashboard Workshop
 
 ###  Overview <a id="Overview"></a>
