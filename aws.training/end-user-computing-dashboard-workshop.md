@@ -11,6 +11,8 @@ description: >-
 
 With this tutorial, you can build a dashboard that enables your help desk staff to view details for Amazon AppStream 2.0 fleets and Amazon WorkSpaces directories and instances. For both AppStream 2.0 and WorkSpaces, your staff can also use the dashboard to perform basic administrative tasks. For AppStream 2.0, they can monitor autoscaling activities and manage users’ streaming sessions. For WorkSpaces, they can send the registration code email to a user, or stop, start, restart, and restore a user’s WorkSpace. With this workflow, your teams don’t require access to the AppStream 2.0 console or WorkSpaces console, or cloud-based computing experience.
 
+### Selecting Region and creating S3 Bucket
+
 Lets start - We need to select Region and then create AWS S3 Bucket. You can use Amazon S3 to host static websites without having to configure or manage any web servers. Complete the following steps to create a new Amazon S3 bucket to host all of the static assets for your website. These assets include .html, .css, JavaScript, and image files.
 
 ![](../.gitbook/assets/screenshot-from-2020-11-08-10-48-26.png)
@@ -18,6 +20,8 @@ Lets start - We need to select Region and then create AWS S3 Bucket. You can use
 Choose Create Bucket, Give it a name and verify region
 
 ![](../.gitbook/assets/screenshot-from-2020-11-08-10-51-06.png)
+
+## Create CloudFround Web Distribution
 
 Now we create a Web distibution via CloudFront. Open CloudFront from console then select Create Distribution &gt; unde rWeb &gt; Getstarted. Under domain choose your S3 Bucket, keep value ID default, Yes to restricted bucket access.
 
@@ -55,6 +59,8 @@ Now we create Distribution -
 
 dmmt6adxe16t4.cloudfront.net
 
+### Creating Amazon Cognito User Pool
+
 Now we build the workflow through Cognito.
 
 * [ ] Amazon Cognito provides authentication, authorization, and user management for your apps. A user pool is a user directory in Amazon Cognito. With a user pool, your users can sign in to your apps through Amazon Cognito.
@@ -76,7 +82,7 @@ Now we build the workflow through Cognito.
 
 After you create a user pool, create an app client.
 
-
+### Create an App Client to use Cloudnnn. EUC Dashboard for signing in users
 
 1. In the navigation pane, under **General settings**, choose **App clients**.
 2. Choose **Add an app client**.
@@ -107,6 +113,8 @@ After you create a user pool, create an app client.
 
 ![](../.gitbook/assets/screenshot-from-2020-11-08-11-12-31.png)
 
+### Enable AWS SSO and create AWS Organisation 
+
 * [ ]   AWS SSO lets you centrally manage SSO access to all of your AWS accounts and cloud applications. AWS SSO also helps you manage access and permissions to commonly used third-party software as a service \(SaaS\) applications, AWS SSO-integrated applications, and custom applications that support Security Assertion Markup Language \(SAML\) 2.0.
 
   When you open the AWS SSO console for the first time, you’re prompted to enable AWS SSO before you can start managing it.  
@@ -123,6 +131,8 @@ After you create a user pool, create an app client.
   3. After SSO is enabled and an AWS organization is created, the **Welcome to AWS Single-Sign-On** page opens.
 
 ![](../.gitbook/assets/screenshot-from-2020-11-08-11-18-55.png)
+
+### Add User and Application to AWS SSO
 
 * [ ]   1. To enable users to sign in through a SAML identity provider \(IdP\), you must first update your SAML identity provider and configure your Amazon Cognito user pool. This requires adding Amazon Cognito as a service provider \(SP\) to your SAML IdP. In the navigation pane of the AWS SSO console, choose **Users**, and then choose **Add user**.
   2. Under **User details**, do the following:  •     For **Username**, enter the name that you want to use for sign-in to the user portal. This value can’t be changed later.  •     For **Password**, specify whether to send an email to the user with password setup instructions \(the default option\), or to generate a one-time password that you can share with the user.  •     For **Email address**, enter and then confirm the email address that you want to use.  •     For **First name** and **Last name**, enter the names that you want to use. These values are required for automatic provisioning to work.  •     For **Display name**, keep the default name, which is based on the values that you specified for **First name** and **Last name**, or enter a different name.
@@ -151,6 +161,8 @@ After you create a user pool, create an app client.
   16. Choose the **Assigned Users** tab, and choose **Assign users**.
   17. Select the check box next to the name of the user that you created in steps 1 and 2 of this procedure, and then choose **Assign users**.
 
+### 
+
 ![](../.gitbook/assets/screenshot-from-2020-11-08-11-22-45.png)
 
 ![](../.gitbook/assets/screenshot-from-2020-11-08-11-24-29.png)
@@ -160,6 +172,8 @@ After you create a user pool, create an app client.
 ![](../.gitbook/assets/screenshot-from-2020-11-08-11-36-17.png)
 
 ![](../.gitbook/assets/screenshot-from-2020-11-08-11-38-57.png)
+
+### Create a SAML identity provider in your Amazon Cognito user pool
 
 This procedure describes how to use AWS SSO as the IdP.
 
@@ -187,7 +201,7 @@ This procedure describes how to use AWS SSO as the IdP.
 
 ![](../.gitbook/assets/screenshot-from-2020-11-08-11-57-11.png)
 
-## Creeating IAM policy for custom IAM role
+## Creating IAM policy for custom IAM role
 
 * [ ]   To grant permissions to handle backend requests for the End User Computing \(EUC\) dashboard, you create a custom IAM policy that grants the following permissions:  
 
@@ -230,11 +244,9 @@ This procedure describes how to use AWS SSO as the IdP.
   3. If this is your first time choosing **Policies**, the **Welcome to Managed Policies** page appears. Choose **Get Started**.
   4. Choose **Create policy**.
   5. Choose the **JSON** tab.
-  6. Copy and paste the following JSON policy into the policy document box. 
+  6. Copy and paste the following JSON policy into the policy document box.     "Version": "2012-10-17",
 
 ```text
-{
-    "Version": "2012-10-17",
     "Statement": [
         {
             "Sid": "VisualEditor0",
@@ -317,7 +329,7 @@ This procedure describes how to use AWS SSO as the IdP.
 
 ![](../.gitbook/assets/screenshot-from-2020-11-08-12-19-24.png)
 
-## Create RESTful API
+## Create a new RESTful API
 
 * [ ] Amazon API Gateway enables you to create, publish, maintain, monitor, and secure your own REST and WebSocket API operations. Complete the following steps to create a new RESTful API.
 
