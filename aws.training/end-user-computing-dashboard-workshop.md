@@ -2,6 +2,8 @@
 
 ###  Overview <a id="Overview"></a>
 
+![](../.gitbook/assets/screenshot-from-2020-11-08-12-12-19.png)
+
 With this tutorial, you can build a dashboard that enables your help desk staff to view details for Amazon AppStream 2.0 fleets and Amazon WorkSpaces directories and instances. For both AppStream 2.0 and WorkSpaces, your staff can also use the dashboard to perform basic administrative tasks. For AppStream 2.0, they can monitor autoscaling activities and manage users’ streaming sessions. For WorkSpaces, they can send the registration code email to a user, or stop, start, restart, and restore a user’s WorkSpace. With this workflow, your teams don’t require access to the AppStream 2.0 console or WorkSpaces console, or cloud-based computing experience.
 
 Lets start - We need to select Region and then create AWS S3 Bucket. You can use Amazon S3 to host static websites without having to configure or manage any web servers. Complete the following steps to create a new Amazon S3 bucket to host all of the static assets for your website. These assets include .html, .css, JavaScript, and image files.
@@ -306,7 +308,44 @@ This procedure describes how to use AWS SSO as the IdP.
   11. In the code, replace &lt;origin-domain&gt; with the CloudFront web distribution domain name URL from Module 1, Step 3. Create an Amazon CloudFront web distribution. The format is as follows:   https://&lt;cloudfront\_web\_distribution\_domain\_name&gt;   This website originates the request to API Gateway.  
   12. In the upper-right corner of the page, choose **Save**, and then close the Lambda console.
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-12-12-19.png)
+![](../.gitbook/assets/screenshot-from-2020-11-08-12-12-19%20%281%29.png)
 
+![](../.gitbook/assets/screenshot-from-2020-11-08-12-19-24.png)
 
+## Create RESTful API
+
+* [ ] Amazon API Gateway enables you to create, publish, maintain, monitor, and secure your own REST and WebSocket API operations. Complete the following steps to create a new RESTful API.
+
+  1. Open the Amazon API Gateway console at [https://console.aws.amazon.com/apigateway](https://console.aws.amazon.com/apigateway).
+  2. Under **Choose an API type**, for **REST API**, choose **Build**.  **Important:** Ensure that you do not select **REST API Private**.
+  3. If this is your first API, the **Create your first API** dialog box opens. Choose **OK** to close the dialog box.
+  4. Under **Choose the protocol**, keep **REST** selected.
+  5. Under **Create new API**, choose **New API**.
+  6. Under **Settings**, do the following:  •     For **API name**, enter examplecorp\_dashboard.  •     For **Description**, you can optionally enter a description.  •     For **Endpoint Type**, keep **Regional** selected. 
+  7. Choose **Create API**.
+
+![](../.gitbook/assets/screenshot-from-2020-11-08-12-26-08.png)
+
+## Configure API Gateway for Lambada integration
+
+* [ ]   To configure API Gateway for Lambda integration, complete the following steps.
+
+  1. In the navigation pane of the API Gateway console, under the examplecorp\_dashboard API, choose **Authorizers**.
+  2. Choose **Create New Authorizer**, and then do the following:  •     For **Name**, enter examplecorp\_dashboard.  •     For **Type**, choose **Cognito**.  •     For **Cognito User Pool**, select the Amazon Cognito user pool that you created from the list \(examplecorp\_dashboard\). Then, verify that the Region where you created your user pool is selected.  •     For **Token Source**, enter Authorization.  •     Leave **Token Validation** empty.
+  3. Choose **Create**.
+  4. In the navigation pane, choose **Resources**.
+  5. Choose **Actions**, **Create Resource**.
+  6. Do the following:  •     Leave the **Configure as proxy resource** check box clear.  •     For **Resource Name**, enter the code for the Region where you created your Lambda function. For example, if you created your Lambda function in US West \(Oregon\), enter:        us-west-2        For a list of AWS Region codes, see the table in [Regional endpoints](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints), in the AWS General Reference.  •     For **Resource Path**, verify that the value is /&lt;region-code&gt;.  •     Select the **Enable API Gateway CORS** check box.
+  7. Choose **Create Resource**.
+  8. With your newly created resource /&lt;region-code&gt; selected in the **Resources** pane, choose **Actions**, **Create Method**.
+  9. Under **OPTIONS**, choose **POST**, and then select the check mark to the right of the list to save your changes.
+  10. In the **POST Setup** pane, do the following:  •     For **Integration type**, keep **Lambda Function** selected.  •     Select the **Use Lambda Proxy integration** check box.  •     For **Lambda Region**, verify that the Region where you created your Lambda function is selected.  •     For **Lambda Function**, enter the name of the function that you created in module 3: examplecorp\_lambda\_dashboard\_function.  •     Keep the **Use Default Timeout** check box selected.
+  11. Choose **Save**.
+  12. In the **Add Permission to Lambda Function** dialog box, choose **OK** to confirm your changes.
+  13. With your new POST method selected, in the **Method Execution** details pane, choose the **Method Request** card.
+  14. In the **POST Method Request** pane, under **Settings**, do the following:  •     Choose the pencil icon to the right of the **Authorization** list.  •     Choose the Amazon Cognito authorizer that you created from the list: examplecorp\_dashboard.  •     Select the check mark to the right of the list to save your changes.  •     Keep the remaining default settings.
+  15. In the **Resources** pane, choose the resource root, **/**.   **Note:** If your AppStream 2.0 fleets and WorkSpaces directories and instances are located in multiple AWS Regions and you’re enabling these Regions in the EUC dashboard, verify that you created a Lambda function in each Region that you’re enabling. For more information, see Module 3, Step 3. Create a Lambda function. Then, before continuing, repeat steps 5 through 15 in this procedure for each Region in which you created a Lambda function.  
+  16. Choose **Actions**, **Deploy API**.
+  17. In the **Deploy API** dialog box, do the following:  •     For **Deployment** stage, choose **\[New Stage\]**.  •     For **Stage name**, enter dashboard.  •     For **Stage description** and **Deployment description**, you can optionally type a description.  •     Choose **Deploy**.
+  18. At the top of the dashboard **Stage Editor** pane, the **Invoke URL** displays. Make a note of this URL. You will need this URL in Module 5, Step 2. Update the config.js file, when you specify a value for **InvokeURL**.
 
