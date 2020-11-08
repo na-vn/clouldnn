@@ -379,7 +379,7 @@ If you have a new Amazon SES account, certain restrictions are applied to your a
 3. Choose **Verify a New Email Address**.
 4. In the **Verify a New Email Address** dialog box, type the email address that you want to add in the **Email Address** box. The email address must be one that you can access.
 
-![](../.gitbook/assets/image%20%2810%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
 
 1. Choose **Verify This Email Address**.
 2. In the **Verification Email Sent** confirmation dialog box, review the message, and then choose **Close**.
@@ -389,7 +389,7 @@ If you have a new Amazon SES account, certain restrictions are applied to your a
 6. After you select the verification link, a page displays to confirm that you have successfully verified an email address.
 7. You can check the status of your email address identity in the Amazon SES console by doing the following: •     In the navigation pane, choose **Email Addresses**. •     In the list of email address identities, find the email address that you added, and confirm that the verification status for the address is **verified**. 
 
-![](../.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%2816%29.png)
 
 ## Update Config.js file
 
@@ -436,7 +436,7 @@ Complete the following steps to upload the Example Corp. website assets by using
 6. Choose **Upload**.
 7. Wait for the upload to complete, and then verify that the correct files and folders appear in the list on the **Overview** tab.
 
-![](../.gitbook/assets/image%20%2812%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 ### Sign into your dashboard and view and Appstream and Workspace Data
 
@@ -448,4 +448,14 @@ Before you complete the following steps, make sure that you have already configu
 2. When prompted, enter the user name and password from Module 2, Step 4. Add a user and application in AWS SSO, and then choose **Sign in**.
 3. After you sign in, the page redirects to the EUC dashboard. The dashboard displays details for your AppStream 2.0 fleets and Amazon WorkSpaces directories and instances.
 4. For AppStream 2.0, your help desk staff can monitor autoscaling activities and manage users’ streaming sessions. For Amazon WorkSpaces, they can send the registration code email to a user, or stop, start, restart, and restore a user’s WorkSpace. 
+
+![](../.gitbook/assets/image%20%2811%29.png)
+
+entered in the AWS SSO user account that i created
+
+![](../.gitbook/assets/image%20%2810%29.png)
+
+![](../.gitbook/assets/image%20%2815%29.png)
+
+
 
