@@ -366,3 +366,38 @@ This procedure describes how to use AWS SSO as the IdP.
   17. In the **Deploy API** dialog box, do the following:  •     For **Deployment** stage, choose **\[New Stage\]**.  •     For **Stage name**, enter dashboard.  •     For **Stage description** and **Deployment description**, you can optionally type a description.  •     Choose **Deploy**.
   18. At the top of the dashboard **Stage Editor** pane, the **Invoke URL** displays. Make a note of this URL. You will need this URL in Module 5, Step 2. Update the config.js file, when you specify a value for **InvokeURL**.
 
+## Add and verify a new email address identity in Amazon SES
+
+Amazon SES is an email service that enables you to send and receive email using your own email addresses and domains. Complete the procedure in this section to add and verify an email address identity using the Amazon SES console. You’ll use this email address for testing later on.
+
+If you have a new Amazon SES account, certain restrictions are applied to your account to help prevent fraud and abuse, and to protect your reputation as a sender. All new Amazon SES accounts are placed in the Amazon SES sandbox, and all sender email addresses and domains must be verified.
+
+**Note:** Staying in an Amazon SES sandbox environment is sufficient when you’re in the development and testing phases. However, we recommend that you move your account out of the sandbox if you deploy your solution to production. Doing so lets you send emails without any restrictions to users who request a WorkSpaces registration code reminder email. For more information, see [Moving Out of the Amazon SES Sandbox](https://docs.aws.amazon.com/ses/latest/DeveloperGuide/request-production-access.html) in the Amazon SES Developer Guide.
+
+1. Open the Amazon SES console at [https://console.aws.amazon.com/ses/.](https://console.aws.amazon.com/ses/)
+2. In the navigation pane, under **Identity Management**, choose **Email Addresses**.
+3. Choose **Verify a New Email Address**.
+4. In the **Verify a New Email Address** dialog box, type the email address that you want to add in the **Email Address** box. The email address must be one that you can access.
+
+![](../.gitbook/assets/image%20%2810%29.png)
+
+1. Choose **Verify This Email Address**.
+2. In the **Verification Email Sent** confirmation dialog box, review the message, and then choose **Close**.
+3. A verification email is sent to the email address that you specified. It may take up to an hour for the email to arrive.
+4. The message contains the following subject line: "Amazon Web Services - Email Address Verification Request in region &lt;RegionName&gt;," where RegionName is the name of the AWS Region that is selected in the Amazon SES console.
+5. When the verification email arrives, select the verification link in the message.  **Note:** The link in the verification message expires 24 hours after the message is sent. If 24 hours have passed since you received the verification email, repeat steps 1 through 7 to receive another verification email with a valid link.  
+6. After you select the verification link, a page displays to confirm that you have successfully verified an email address.
+7. You can check the status of your email address identity in the Amazon SES console by doing the following: •     In the navigation pane, choose **Email Addresses**. •     In the list of email address identities, find the email address that you added, and confirm that the verification status for the address is **verified**. 
+
+![](../.gitbook/assets/image%20%2811%29.png)
+
+## Update Config.js file
+
+
+
+Complete the following steps to update the **config.js** file in your EUC dashboard website deployment.
+
+1. In Module 3, Step 3. Create a Lambda function, you downloaded and extracted website assets to your local computer. Navigate to the location where you extracted files on your local computer and open the file **/web/assets/js/config.js** in a text editor.
+2. In the **config.js** file, replace the following values as indicated: •     &lt;userPoolId&gt; - Enter the Amazon Cognito **Pool Id** from Module 2, Step 1. Create a Cognito user pool. •     &lt;userpool-ClientId&gt; - Enter the Amazon Cognito **App client id** from Module 2, Step 2. Create an app client to use the Example Corp. website for signing in your users. •     &lt;region-code-cognito&gt; - Enter the code for the **AWS Region** in which you configured the Amazon Cognito user pool \(for example, us-west-2\). For a list of AWS Region codes, see the table in [Regional endpoints](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints), in the AWS General Reference. •     &lt;authUrl&gt; - Enter the URL for the Amazon Cognito user pool domain from Module 2, Step 2. Create an app client to use the Example Corp. website for signing in your users. •     &lt;idp&gt; - Enter the Amazon Cognito SAML **Provider name** from Module 2, Step 5. Create a SAML identity provider in your Amazon Cognito user pool. This value is case-sensitive. If you used the name specified in the workshop instructions, enter **dashboard**. •     &lt;invokeUrl&gt; - Enter the **Invoke URL** from Module 4, Step 2. Configure API Gateway for Lambda Integration. •     &lt;AppsEnabled&gt; - Enter the names of the services to enable in the dashboard. Use list form. For this workshop, keep the following default values to enable AppStream 2.0 and WorkSpaces - \['AppStream','WorkSpaces'\] •     &lt;loadFirst&gt; - Enter the name of the service tab to open by default when the dashboard starts. By default, AppStream 2.0 is configured to open first. To configure WorkSpaces to open first instead, replace 'AppStream' with 'WorkSpaces' •     &lt;region-code-list&gt; - Enter a comma separated list of codes for one or more AWS Regions that you want to enable in the dashboard. The data for these Regions will be displayed in the EUC dashboard.  For example, if you want to enable us-west-2 only, use the following format: \['us-west-2'\]  If you want to enable us-east-1 and us-west-2, use the following format: \['us-east-1','us-west-2'\]  **Note:** If your AppStream 2.0 fleets and WorkSpaces directories and instances are located in multiple Regions and you’re enabling these Regions in the EUC dashboard, verify that you have configured the following in each Region listed:          o A Lambda function. For more information, see Module 3, Step 3. Create a Lambda function.         o An API Gateway resource and method. For more information, see Module 4, Step 2. Configure API Gateway for Lambda integration.         o An email address that you set up and verified through Amazon SES, as described earlier in this module, in Step 1. Add and verify a new email address identity in Amazon SES.  •     &lt;region-code-default&gt; - Enter the code for the AWS Region that you want to display first in the EUC dashboard. The Region code must also be included in the regions list. •     &lt;noreply@example.com&gt; - Enter the email address that you set up using Amazon SES. Amazon SES sends an email to this address when a EUC dashboard user requests an Amazon WorkSpaces registration code reminder.
+3. Save your changes and close the file.
+
