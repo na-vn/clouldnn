@@ -20,33 +20,33 @@ Choose Create Bucket, Give it a name and verify region
 
 Now we create a Web distibution via CloudFront. Open CloudFront from console then select Create Distribution &gt; unde rWeb &gt; Getstarted. Under domain choose your S3 Bucket, keep value ID default, Yes to restricted bucket access.
 
-Now we create Distribution -
+1. [ ] Choose **Create Distribution**.
 
-* [ ] Choose **Create Distribution**.
+   Under **Web**, choose **Get Started**.
 
-  Under **Web**, choose **Get Started**.
+   For **Origin Domain Name**, select your S3 bucket.
 
-  For **Origin Domain Name**, select your S3 bucket.
+   Leave **Origin Path** empty and keep the default value for **Origin ID**.
 
-  Leave **Origin Path** empty and keep the default value for **Origin ID**.
+   For **Restrict Bucket Access**, choose **Yes**.
 
-  For **Restrict Bucket Access**, choose **Yes**.
+   For **Origin Access Identity**, choose **Create a New Identity**. Keep the default comment or enter a new one.
 
-  For **Origin Access Identity**, choose **Create a New Identity**. Keep the default comment or enter a new one.
+   For **Grant Read Permissions on Bucket**, choose **Yes, Update Bucket Policy**.
 
-  For **Grant Read Permissions on Bucket**, choose **Yes, Update Bucket Policy**.
+   Keep the default values for **Origin Connection Attempts** and **Origin Connection Timeout**, and leave **Origin Custom Headers** empty.
 
-  Keep the default values for **Origin Connection Attempts** and **Origin Connection Timeout**, and leave **Origin Custom Headers** empty.
+   Under **Default Cache Behavior Settings**, for **Viewer Protocol Policy**, choose **Redirect HTTP to HTTPS**.
 
-  Under **Default Cache Behavior Settings**, for **Viewer Protocol Policy**, choose **Redirect HTTP to HTTPS**.
+   Keep the rest of the default settings in this section.
 
-  Keep the rest of the default settings in this section.
+   Under **Distribution Settings**, for **Default Root Object**, enter index.html.
 
-  Under **Distribution Settings**, for **Default Root Object**, enter index.html.
+   Keep the rest of the default settings in this section.
 
-  Keep the rest of the default settings in this section.
+   Choose **Create Distribution**.
 
-  Choose **Create Distribution**.
+![](../.gitbook/assets/screenshot-from-2020-11-08-10-58-41.png)
 
 ![](../.gitbook/assets/screenshot-from-2020-11-08-10-58-41.png)
 
