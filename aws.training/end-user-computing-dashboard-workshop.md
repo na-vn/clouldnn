@@ -389,7 +389,7 @@ If you have a new Amazon SES account, certain restrictions are applied to your a
 6. After you select the verification link, a page displays to confirm that you have successfully verified an email address.
 7. You can check the status of your email address identity in the Amazon SES console by doing the following: •     In the navigation pane, choose **Email Addresses**. •     In the list of email address identities, find the email address that you added, and confirm that the verification status for the address is **verified**. 
 
-![](../.gitbook/assets/image%20%2811%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
 
 ## Update Config.js file
 
@@ -400,4 +400,41 @@ Complete the following steps to update the **config.js** file in your EUC dashbo
 1. In Module 3, Step 3. Create a Lambda function, you downloaded and extracted website assets to your local computer. Navigate to the location where you extracted files on your local computer and open the file **/web/assets/js/config.js** in a text editor.
 2. In the **config.js** file, replace the following values as indicated: •     &lt;userPoolId&gt; - Enter the Amazon Cognito **Pool Id** from Module 2, Step 1. Create a Cognito user pool. •     &lt;userpool-ClientId&gt; - Enter the Amazon Cognito **App client id** from Module 2, Step 2. Create an app client to use the Example Corp. website for signing in your users. •     &lt;region-code-cognito&gt; - Enter the code for the **AWS Region** in which you configured the Amazon Cognito user pool \(for example, us-west-2\). For a list of AWS Region codes, see the table in [Regional endpoints](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints), in the AWS General Reference. •     &lt;authUrl&gt; - Enter the URL for the Amazon Cognito user pool domain from Module 2, Step 2. Create an app client to use the Example Corp. website for signing in your users. •     &lt;idp&gt; - Enter the Amazon Cognito SAML **Provider name** from Module 2, Step 5. Create a SAML identity provider in your Amazon Cognito user pool. This value is case-sensitive. If you used the name specified in the workshop instructions, enter **dashboard**. •     &lt;invokeUrl&gt; - Enter the **Invoke URL** from Module 4, Step 2. Configure API Gateway for Lambda Integration. •     &lt;AppsEnabled&gt; - Enter the names of the services to enable in the dashboard. Use list form. For this workshop, keep the following default values to enable AppStream 2.0 and WorkSpaces - \['AppStream','WorkSpaces'\] •     &lt;loadFirst&gt; - Enter the name of the service tab to open by default when the dashboard starts. By default, AppStream 2.0 is configured to open first. To configure WorkSpaces to open first instead, replace 'AppStream' with 'WorkSpaces' •     &lt;region-code-list&gt; - Enter a comma separated list of codes for one or more AWS Regions that you want to enable in the dashboard. The data for these Regions will be displayed in the EUC dashboard.  For example, if you want to enable us-west-2 only, use the following format: \['us-west-2'\]  If you want to enable us-east-1 and us-west-2, use the following format: \['us-east-1','us-west-2'\]  **Note:** If your AppStream 2.0 fleets and WorkSpaces directories and instances are located in multiple Regions and you’re enabling these Regions in the EUC dashboard, verify that you have configured the following in each Region listed:          o A Lambda function. For more information, see Module 3, Step 3. Create a Lambda function.         o An API Gateway resource and method. For more information, see Module 4, Step 2. Configure API Gateway for Lambda integration.         o An email address that you set up and verified through Amazon SES, as described earlier in this module, in Step 1. Add and verify a new email address identity in Amazon SES.  •     &lt;region-code-default&gt; - Enter the code for the AWS Region that you want to display first in the EUC dashboard. The Region code must also be included in the regions list. •     &lt;noreply@example.com&gt; - Enter the email address that you set up using Amazon SES. Amazon SES sends an email to this address when a EUC dashboard user requests an Amazon WorkSpaces registration code reminder.
 3. Save your changes and close the file.
+
+```text
+window._config = {
+    cognito: {
+        userPoolId: '<dlwHjxtIq>', //Enter the Cognito Pool Id from Module 2, Step 1 Create a Cognito user pool.
+        userPoolClientId: '<28lkltk1298nlr52ufiscerk1s>', //Enter the Cognito App client id from Module 2, Step 2. Create an app client to use the Example Corp. EUC dashboard website for signing in your users.
+        region: '<ap-southeast-2>', //Enter the code for the AWS Region in which you configured the Cognito user pool - for example, us-west-2. For a list of Region codes, see https://docs.aws.amazon.com/en_us/general/latest/gr/aws-service-information.html
+        authUrl: '<https://cloudnn.auth.ap-southeast-2.amazoncognito.com>', //Enter the URL for the Cognito user pool domain from Module 2, Step 2. Create an app client to use the Example Corp. EUC dashboard website for signing in your users.
+        idp: '<Cloudnn>', //Enter the Cognito SAML provider name from Module 2, Step 5. Create a SAML identity provider in your Amazon Cognito user pool. This value is case-sensitive. If you used the name specified in the workshop instructions, enter dashboard
+    },
+    api: {
+        invokeUrl: '<https://3jtug0m388.execute-api.ap-southeast-2.amazonaws.com/Dashboard>', //Enter the Invoke URL from Module 4, Step 2. Configure API Gateway for Lambda Integration.
+    },
+    siteOptions: {
+        AppsEnabled: ['AppStream','WorkSpaces'], //Enter the names of the services to enable for monitoring in the dashboard. Use list form. For this workshop, keep the following default values to enable AppStream 2.0 and WorkSpaces - ['AppStream','WorkSpaces']
+        loadFirst: 'AppStream', //Enter the name of the service tab to open by default when the dashboard starts. By default, AppStream 2.0 is configured to open first. To configure Amazon WorkSpaces to open first instead, replace 'AppStream' with 'WorkSpaces'
+        Regions: ['<ap-southeast-2>'], //Enter a comma-separated list of codes for the AWS Regions that you want to enable in the End User Computing (EUC) dashboard. The data for these Regions will be displayed in the dashboard. If your AppStream 2.0 fleets and WorkSpaces directories and instances are located in multiple Regions and you are enabling these Regions in the dashboard, verify that you have configured the following in each Region listed: A Lambda function, an API Gateway resource and method, and an email address set up and verified through Amazon SES.
+        defaultRegion: '<region-code-default>', //Enter the code for the default AWS Region that you want to display first in the EUC dashboard. The Region code must also be included in the regions list.
+        sendFrom: 'nam.mailbox@gmail.com', //Enter the email address that you set up and verified using Amazon SES. For more information, see Module 5, Step 1. Add and verify a new email address identity in Amazon SES. Amazon SES sends an email to this address when a EUC dashboard user requests an Amazon WorkSpaces registration code reminder.
+    }
+};
+
+```
+
+### Upload the Cloudnn website assest to your Amazon S3 Bucket
+
+Complete the following steps to upload the Example Corp. website assets by using the Amazon S3 console.
+
+1. Open the Amazon S3 console at [https://console.aws.amazon.com/s3/](https://console.aws.amazon.com/s3/).
+2. In the **Bucket name** list, choose the name of the bucket that you created in Module 1, Step 2. Create a new Amazon S3 bucket.
+3. In a file explorer window, navigate to the location where you extracted the files, as described in Module 3, Step 3, Create a Lambda function. Navigate to the directory with the **index.html** file and **assets** folder. Select all of the files and folders under that directory.
+4. In the Amazon S3 console window, on the **Overview** tab, choose **Upload**.
+5. Drag and drop your selections into the **Upload** dialog box.
+6. Choose **Upload**.
+7. Wait for the upload to complete, and then verify that the correct files and folders appear in the list on the **Overview** tab.
+
+![](../.gitbook/assets/image%20%2811%29.png)
 
