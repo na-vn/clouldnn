@@ -389,7 +389,7 @@ If you have a new Amazon SES account, certain restrictions are applied to your a
 6. After you select the verification link, a page displays to confirm that you have successfully verified an email address.
 7. You can check the status of your email address identity in the Amazon SES console by doing the following: •     In the navigation pane, choose **Email Addresses**. •     In the list of email address identities, find the email address that you added, and confirm that the verification status for the address is **verified**. 
 
-![](../.gitbook/assets/image%20%2812%29.png)
+![](../.gitbook/assets/image%20%2813%29.png)
 
 ## Update Config.js file
 
@@ -436,5 +436,16 @@ Complete the following steps to upload the Example Corp. website assets by using
 6. Choose **Upload**.
 7. Wait for the upload to complete, and then verify that the correct files and folders appear in the list on the **Overview** tab.
 
-![](../.gitbook/assets/image%20%2811%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
+
+### Sign into your dashboard and view and Appstream and Workspace Data
+
+
+
+Before you complete the following steps, make sure that you have already configured an AppStream 2.0 environment that includes at least one fleet. In addition, you must have Amazon WorkSpaces configured with at least one WorkSpace. These configurations are required to generate the data that is displayed in the dashboard.
+
+1. Open a web browser and navigate to https://&lt;cloudfront\_domain\_name&gt;/index.html, where &lt;cloudfront\_domain\_name&gt; is the CloudFront web distribution domain name URL from Module 1, Step 3. Create an Amazon CloudFront web distribution.
+2. When prompted, enter the user name and password from Module 2, Step 4. Add a user and application in AWS SSO, and then choose **Sign in**.
+3. After you sign in, the page redirects to the EUC dashboard. The dashboard displays details for your AppStream 2.0 fleets and Amazon WorkSpaces directories and instances.
+4. For AppStream 2.0, your help desk staff can monitor autoscaling activities and manage users’ streaming sessions. For Amazon WorkSpaces, they can send the registration code email to a user, or stop, start, restart, and restore a user’s WorkSpace. 
 
