@@ -1,4 +1,4 @@
-# About Me
+# Home
 
 I have over 10 years’ experience in the Information Technology & Services industry. I have worked in both public and private sectors, focusing on Windows Server operating systems, virtualization, hardware, networks and automation through a mixture of greenfield and brownfield projects.
 

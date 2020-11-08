@@ -1,4 +1,4 @@
-# AWS.training
+# AWS Testing Environments
 
 While browsing on which platform to choose to learn my certification on. I signed into aws.training and found they have wonderful resources.
 
