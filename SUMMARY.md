@@ -2,6 +2,7 @@
 
 * [Home](README.md)
 * [AWS Testing Environments](aws.training/README.md)
+  * [Backup files to Amazon S3](aws.training/backup-files-to-amazon-s3.md)
   * [End User Computing Dashboard Workshop](aws.training/end-user-computing-dashboard-workshop.md)
   * [Host a Static Website](aws.training/host-a-static-website.md)
   * [Launch a Linux Virtual Machine](aws.training/launch-a-linux-virtual-machine.md)
