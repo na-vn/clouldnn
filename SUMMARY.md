@@ -13,4 +13,5 @@
   * [Module 1: Introduction to the AWS Cloud](aws-amazone-awsome-day/module-1-introduction-to-the-aws-cloud.md)
 * [acloudguru](acloudguru/README.md)
   * [AWS Cloud Practioner](acloudguru/aws-cloud-practioner.md)
+* [AWS re:Invent Virtual Conference](aws-re-invent-virtual-conference.md)
 
