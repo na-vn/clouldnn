@@ -4,7 +4,7 @@ description: 'November 30 - December 18, 2020'
 
 # AWS re:Invent Virtual Conference
 
-![](../.gitbook/assets/image%20%2817%29.png)
+![](../.gitbook/assets/image%20%2823%29.png)
 
   
 AWS re:Invent 2020 is the Amazon Web Services annual user conference that focuses on:
