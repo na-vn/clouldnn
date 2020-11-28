@@ -2,7 +2,7 @@
 
 ###  Overview <a id="Overview"></a>
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-12-12-19.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-12-12-19.png)
 
 With this tutorial, you can build a dashboard that enables your help desk staff to view details for Amazon AppStream 2.0 fleets and Amazon WorkSpaces directories and instances. For both AppStream 2.0 and WorkSpaces, your staff can also use the dashboard to perform basic administrative tasks. For AppStream 2.0, they can monitor autoscaling activities and manage users’ streaming sessions. For WorkSpaces, they can send the registration code email to a user, or stop, start, restart, and restore a user’s WorkSpace. With this workflow, your teams don’t require access to the AppStream 2.0 console or WorkSpaces console, or cloud-based computing experience.
 
@@ -10,11 +10,11 @@ With this tutorial, you can build a dashboard that enables your help desk staff 
 
 Lets start - We need to select Region and then create AWS S3 Bucket. You can use Amazon S3 to host static websites without having to configure or manage any web servers. Complete the following steps to create a new Amazon S3 bucket to host all of the static assets for your website. These assets include .html, .css, JavaScript, and image files.
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-10-48-26.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-10-48-26.png)
 
 Choose Create Bucket, Give it a name and verify region
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-10-51-06.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-10-51-06.png)
 
 ## Create CloudFround Web Distribution
 
@@ -46,11 +46,11 @@ Now we create a Web distibution via CloudFront. Open CloudFront from console the
 
    Choose **Create Distribution**.
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-10-58-41.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-10-58-41.png)
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-10-58-41.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-10-58-41.png)
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-10-59-40.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-10-59-40.png)
 
 dmmt6adxe16t4.cloudfront.net
 
@@ -71,9 +71,9 @@ Now we build the workflow through Cognito.
 
 **Pool Id** ap-southeast-2\_dlwHjxtIq
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-11-03-36.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-11-03-36.png)
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-11-06-00.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-11-06-00.png)
 
 After you create a user pool, create an app client.
 
@@ -102,11 +102,11 @@ APP client ID28lkltk1298nlr52ufiscerk1s
 
 **.auth.ap-southeast-2.amazoncognito.com**
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-11-12-48.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-11-12-48.png)
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-11-12-58.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-11-12-58.png)
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-11-12-31.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-11-12-31.png)
 
 ### Enable AWS SSO and create AWS Organisation 
 
@@ -125,7 +125,7 @@ APP client ID28lkltk1298nlr52ufiscerk1s
   2. Choose **Create AWS organizatio**n.  With AWS SSO, you manage SSO access and user permissions across all your AWS accounts in AWS Organizations.
   3. After SSO is enabled and an AWS organization is created, the **Welcome to AWS Single-Sign-On** page opens.
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-11-18-55.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-11-18-55.png)
 
 ### Add User and Application to AWS SSO
 
@@ -158,15 +158,15 @@ APP client ID28lkltk1298nlr52ufiscerk1s
 
 ### 
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-11-22-45.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-11-22-45.png)
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-11-24-29.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-11-24-29.png)
 
 {% embed url="https://portal.sso.ap-southeast-2.amazonaws.com/saml/metadata/MTQwOTUzMjY4NzA5X2lucy0xMWQ1YWQ2NGMzYTU2OTk4" %}
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-11-36-17.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-11-36-17.png)
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-11-38-57.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-11-38-57.png)
 
 ### Create a SAML identity provider in your Amazon Cognito user pool
 
@@ -188,13 +188,13 @@ This procedure describes how to use AWS SSO as the IdP.
 14. Under **OAuth 2.0**, select the following check boxes: **Implicit grant**, **email**, and **openid**.
 15. Choose **Save changes**.
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-11-43-33.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-11-43-33.png)
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-11-44-08.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-11-44-08.png)
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-11-51-24.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-11-51-24.png)
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-11-57-11.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-11-57-11.png)
 
 ## Creating IAM policy for custom IAM role
 
@@ -278,9 +278,9 @@ This procedure describes how to use AWS SSO as the IdP.
 
 ```
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-12-01-13.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-12-01-13.png)
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-12-03-58.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-12-03-58.png)
 
 ## Create IAM Service Role that lets Lambada functions call AWS service
 
@@ -297,9 +297,9 @@ This procedure describes how to use AWS SSO as the IdP.
   8. For **Role name**, enter examplecorp\_lambda\_dashboard\_role.
   9. Choose **Create role**.
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-12-06-24.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-12-06-24.png)
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-12-08-44.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-12-08-44.png)
 
 ## Create Lambada Function
 
@@ -320,9 +320,9 @@ This procedure describes how to use AWS SSO as the IdP.
   11. In the code, replace &lt;origin-domain&gt; with the CloudFront web distribution domain name URL from Module 1, Step 3. Create an Amazon CloudFront web distribution. The format is as follows:   https://&lt;cloudfront\_web\_distribution\_domain\_name&gt;   This website originates the request to API Gateway.  
   12. In the upper-right corner of the page, choose **Save**, and then close the Lambda console.
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-12-12-19%20%281%29.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-12-12-19%20%281%29.png)
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-12-19-24.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-12-19-24.png)
 
 ## Create a new RESTful API
 
@@ -336,7 +336,7 @@ This procedure describes how to use AWS SSO as the IdP.
   6. Under **Settings**, do the following:  •     For **API name**, enter examplecorp\_dashboard.  •     For **Description**, you can optionally enter a description.  •     For **Endpoint Type**, keep **Regional** selected. 
   7. Choose **Create API**.
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-12-26-08.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-12-26-08.png)
 
 ## Configure API Gateway for Lambada integration
 
@@ -374,7 +374,7 @@ If you have a new Amazon SES account, certain restrictions are applied to your a
 3. Choose **Verify a New Email Address**.
 4. In the **Verify a New Email Address** dialog box, type the email address that you want to add in the **Email Address** box. The email address must be one that you can access.
 
-![](../.gitbook/assets/image%20%2812%29.png)
+![](../../.gitbook/assets/image%20%2812%29.png)
 
 1. Choose **Verify This Email Address**.
 2. In the **Verification Email Sent** confirmation dialog box, review the message, and then choose **Close**.
@@ -384,7 +384,7 @@ If you have a new Amazon SES account, certain restrictions are applied to your a
 6. After you select the verification link, a page displays to confirm that you have successfully verified an email address.
 7. You can check the status of your email address identity in the Amazon SES console by doing the following: •     In the navigation pane, choose **Email Addresses**. •     In the list of email address identities, find the email address that you added, and confirm that the verification status for the address is **verified**. 
 
-![](../.gitbook/assets/image%20%2816%29.png)
+![](../../.gitbook/assets/image%20%2816%29.png)
 
 ## Update Config.js file
 
@@ -431,7 +431,7 @@ Complete the following steps to upload the Example Corp. website assets by using
 6. Choose **Upload**.
 7. Wait for the upload to complete, and then verify that the correct files and folders appear in the list on the **Overview** tab.
 
-![](../.gitbook/assets/image%20%2814%29.png)
+![](../../.gitbook/assets/image%20%2814%29.png)
 
 ### Sign into your dashboard and view and Appstream and Workspace Data
 
@@ -444,13 +444,13 @@ Before you complete the following steps, make sure that you have already configu
 3. After you sign in, the page redirects to the EUC dashboard. The dashboard displays details for your AppStream 2.0 fleets and Amazon WorkSpaces directories and instances.
 4. For AppStream 2.0, your help desk staff can monitor autoscaling activities and manage users’ streaming sessions. For Amazon WorkSpaces, they can send the registration code email to a user, or stop, start, restart, and restore a user’s WorkSpace. 
 
-![](../.gitbook/assets/image%20%2811%29.png)
+![](../../.gitbook/assets/image%20%2811%29.png)
 
 entered in the AWS SSO user account that i created
 
-![](../.gitbook/assets/image%20%2810%29.png)
+![](../../.gitbook/assets/image%20%2810%29.png)
 
-![](../.gitbook/assets/image%20%2815%29.png)
+![](../../.gitbook/assets/image%20%2815%29.png)
 
 
 

@@ -48,7 +48,7 @@ VMware Cloud on AWS - VMware software-defined data center SDDC technologies you 
 
 **Amazon ElastiCache** is a service that makes it easy to deploy.. operate and scale and in memory data store. Fully managed Redis or Memcached-compatible in-memory.
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](../../.gitbook/assets/image%20%289%29.png)
 
-![](../.gitbook/assets/image%20%288%29.png)
+![](../../.gitbook/assets/image%20%288%29.png)
 

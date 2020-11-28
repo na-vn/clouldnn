@@ -18,7 +18,7 @@ Amazon S3 Glacier - low cost archiving for media assets, health care info etc. D
 
 Summary: Ec2 instance types, EBS, S3, Amazon Glacier, VPC Security groups
 
-![](../.gitbook/assets/screenshot-from-2020-11-05-22-36-02.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-05-22-36-02.png)
 
 
 

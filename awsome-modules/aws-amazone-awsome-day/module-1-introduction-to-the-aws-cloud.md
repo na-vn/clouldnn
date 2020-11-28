@@ -22,7 +22,7 @@ AWS SDKS which supports Java, python, php, .net, Javascript, C++, Node and more
 
 Summary: AWS provides on demand IT resources and services such as compute, storage, databases and more over the internet on a pay as you go model. AWS builds and manages the infrastructure or datacenters and the networks around the world organized into regions availability zone and edge location, you can leverage host your services
 
-![](../.gitbook/assets/screenshot-from-2020-11-05-21-46-31.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-05-21-46-31.png)
 
 
 

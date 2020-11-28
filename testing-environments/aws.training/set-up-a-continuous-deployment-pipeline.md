@@ -15,13 +15,13 @@ We need to create Amazon ECS service first. Open up console and navigate to ECS.
 
 f you have created an Elastic Beanstalk application before, click: **Create New Application** on the upper-right corner. Name your application and create a new web server environment. Select PHP as your platform and Single Instance as your environment type. If you are planning to remote login to your instances, select a key pair. Otherwise, leave default values for the remaining options and create the environment for your continuous deployment pipeline
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-23-28-27.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-23-28-27.png)
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-23-28-27%20%281%29.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-23-28-27%20%281%29.png)
 
 Elastic Beanstalk will begin creating a sample environment
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-23-32-48.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-23-32-48.png)
 
 Visit repo and fork out code 
 
@@ -29,5 +29,5 @@ Visit repo and fork out code
 
 Now open CodePipline and create new Pipeline. name your pipline then connect to GitHub repo then pull from account
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-23-35-21.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-23-35-21.png)
 

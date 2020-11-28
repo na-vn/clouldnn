@@ -6,23 +6,23 @@ This step-by-step tutorial will help you store your files in the cloud using Ama
 
 First, access the Console, navigate to S3 then select create Bucket
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-18-22-44.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-18-22-44.png)
 
 Please name your Bucket, select region. You can also confgure tags, versioning, Object logging and permissions. Once finished, click Create bucket
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-19-21-12%20%281%29.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-19-21-12%20%281%29.png)
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-18-30-28.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-18-30-28.png)
 
 Now that we have created a data store, Lets upload. Select your Bucket then once you've open to the next screen, select Upload. Choose a file from your computer then select Open.
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-19-21-12.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-19-21-12.png)
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-19-24-02.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-19-24-02.png)
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-19-25-00.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-19-25-00.png)
 
 To retreive its exactly the same. You select your bucket then select on your file, then select Actions then download file.
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-19-26-58.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-19-26-58.png)
 

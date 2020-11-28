@@ -10,7 +10,7 @@ Static websites deliver HTML, JavaScript, images, video and other files to your 
 
 We need to create a repository in GitHub called amplifyapp then initialize then push the new application to github repo 
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-08-48-20.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-08-48-20.png)
 
 Open Terminal or Command prompt and run the below command
 
@@ -28,15 +28,15 @@ This creates the files listed in the application then which it pushes onto the r
 
 Open on to AWS Amplyfy and click Deploy, Conect yout Github account and local the 
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-08-57-04.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-08-57-04.png)
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-08-57-19.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-08-57-19.png)
 
 Once loggeed in choose Amplify repo.This will the verfiy the code block and select save and deploy.
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-10-14-07.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-10-14-07.png)
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-10-14-25.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-10-14-25.png)
 
-![](../.gitbook/assets/screenshot-from-2020-11-08-10-20-49.png)
+![](../../.gitbook/assets/screenshot-from-2020-11-08-10-20-49.png)
 
