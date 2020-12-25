@@ -14,6 +14,8 @@
       * [8. Regions and Availability Zones](certifications/wizlabs/aws-cloud-practioner/cloud-concepts/8.-regions-and-availability-zones.md)
       * [9. AWS Support](certifications/wizlabs/aws-cloud-practioner/cloud-concepts/9.-aws-support.md)
       * [10. Summary](certifications/wizlabs/aws-cloud-practioner/cloud-concepts/10.-summary.md)
+    * [AWS Core Services - Part 1](certifications/wizlabs/aws-cloud-practioner/aws-core-services-part-1/README.md)
+      * [12. Simple Storage Service](certifications/wizlabs/aws-cloud-practioner/aws-core-services-part-1/12.-simple-storage-service.md)
 
 ## Testing Environments
 
