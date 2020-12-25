@@ -4,8 +4,11 @@
 
 ## Certifications
 
-* [acloudguru](certifications/acloudguru/README.md)
-  * [AWS Cloud Practioner](certifications/acloudguru/aws-cloud-practioner.md)
+* [Wizlabs](certifications/wizlabs/README.md)
+  * [AWS Cloud Practioner](certifications/wizlabs/aws-cloud-practioner/README.md)
+    * [Cloud Concepts](certifications/wizlabs/aws-cloud-practioner/cloud-concepts/README.md)
+      * [What is the Cloud](certifications/wizlabs/aws-cloud-practioner/cloud-concepts/what-is-the-cloud.md)
+      * [Amazon Web Service](certifications/wizlabs/aws-cloud-practioner/cloud-concepts/amazon-web-service.md)
 
 ## Testing Environments
 
