@@ -5,10 +5,12 @@
 ## Certifications
 
 * [Wizlabs](certifications/wizlabs/README.md)
-  * [AWS Cloud Practioner](certifications/wizlabs/aws-cloud-practioner/README.md)
+  * [AWS Cloud Practioner Course](certifications/wizlabs/aws-cloud-practioner/README.md)
     * [Cloud Concepts](certifications/wizlabs/aws-cloud-practioner/cloud-concepts/README.md)
-      * [What is the Cloud](certifications/wizlabs/aws-cloud-practioner/cloud-concepts/what-is-the-cloud.md)
-      * [Amazon Web Service](certifications/wizlabs/aws-cloud-practioner/cloud-concepts/amazon-web-service.md)
+      * [7. AWS Console](certifications/wizlabs/aws-cloud-practioner/cloud-concepts/7.-aws-console.md)
+      * [4. What is the Cloud](certifications/wizlabs/aws-cloud-practioner/cloud-concepts/what-is-the-cloud.md)
+      * [5. Amazon Web Service](certifications/wizlabs/aws-cloud-practioner/cloud-concepts/amazon-web-service.md)
+      * [6. AWS Free Account](certifications/wizlabs/aws-cloud-practioner/cloud-concepts/aws-free-account.md)
 
 ## Testing Environments
 

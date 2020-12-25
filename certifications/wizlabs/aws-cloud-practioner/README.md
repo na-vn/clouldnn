@@ -2,7 +2,7 @@
 description: wizlabs.com
 ---
 
-# AWS Cloud Practioner
+# AWS Cloud Practioner Course
 
 ## What the Exam marks for
 
