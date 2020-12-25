@@ -4,5 +4,3 @@ I have over 10 years’ experience in the Information Technology & Services indu
 
 ![](.gitbook/assets/image%20%283%29.png)
 
-
-
