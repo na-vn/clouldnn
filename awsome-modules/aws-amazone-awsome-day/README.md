@@ -16,6 +16,18 @@ Module 4: Secure your Cloud applications
 
 Module 5: AWS price, Support and archtecting 
 
+### Here are the articles of this section:
+
+{% page-ref page="module-1-introduction-to-the-aws-cloud.md" %}
+
+{% page-ref page="module-2-getting-started-with-the-cloud.md" %}
+
+{% page-ref page="module-3-building-in-the-cloud.md" %}
+
+
+
+
+
 
 
 
