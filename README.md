@@ -1,7 +1,3 @@
----
-description: 'https://www.linkedin.com/in/nam-nguyen-6a248635'
----
-
 # Home
 
 I am an IT Professional with an IT Analyst, Engineering and Systems Administration background previously working in a medium to large enterprise environments. I am based in Melbourne, Australia.
