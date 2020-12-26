@@ -14,7 +14,6 @@
       * [8. Regions and Availability Zones](certifications/wizlabs/aws-cloud-practioner/cloud-concepts/8.-regions-and-availability-zones.md)
       * [9. AWS Support](certifications/wizlabs/aws-cloud-practioner/cloud-concepts/9.-aws-support.md)
       * [10. Summary](certifications/wizlabs/aws-cloud-practioner/cloud-concepts/10.-summary.md)
-    * [Untitled](certifications/wizlabs/aws-cloud-practioner/untitled.md)
     * [AWS Core Services - Part 1](certifications/wizlabs/aws-cloud-practioner/aws-core-services-part-1/README.md)
       * [15. Lab - S3 - Static Web Site Hosting](certifications/wizlabs/aws-cloud-practioner/aws-core-services-part-1/15.-lab-s3-static-web-site-hosting.md)
       * [14. Lab - SImple Storage Service Part 2](certifications/wizlabs/aws-cloud-practioner/aws-core-services-part-1/14.-lab-simple-storage-service-part-2.md)
