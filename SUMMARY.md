@@ -29,8 +29,6 @@
   * [Host a Static Website](testing-environments/aws.training/host-a-static-website.md)
   * [Launch a Linux Virtual Machine](testing-environments/aws.training/launch-a-linux-virtual-machine.md)
 
-## AWsome Modules
-
 ## Other
 
 * [AWsome day Modules](other/aws-amazone-awsome-day/README.md)
