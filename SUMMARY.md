@@ -31,12 +31,11 @@
 
 ## AWsome Modules
 
-* [AWsome day Modules](awsome-modules/aws-amazone-awsome-day/README.md)
-  * [Module 3: Building in the cloud](awsome-modules/aws-amazone-awsome-day/module-3-building-in-the-cloud.md)
-  * [Module 2: Getting started with the Cloud](awsome-modules/aws-amazone-awsome-day/module-2-getting-started-with-the-cloud.md)
-  * [Module 1: Introduction to the AWS Cloud](awsome-modules/aws-amazone-awsome-day/module-1-introduction-to-the-aws-cloud.md)
-
 ## Other
 
+* [AWsome day Modules](other/aws-amazone-awsome-day/README.md)
+  * [Module 3: Building in the cloud](other/aws-amazone-awsome-day/module-3-building-in-the-cloud.md)
+  * [Module 2: Getting started with the Cloud](other/aws-amazone-awsome-day/module-2-getting-started-with-the-cloud.md)
+  * [Module 1: Introduction to the AWS Cloud](other/aws-amazone-awsome-day/module-1-introduction-to-the-aws-cloud.md)
 * [AWS re:Invent Virtual Conference](other/aws-re-invent-virtual-conference.md)
 
