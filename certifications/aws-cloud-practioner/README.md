@@ -4,11 +4,15 @@ description: wizlabs.com
 
 # AWS Cloud Practioner Course
 
-Here are the chapters of the online course
+I've bitten the bullet and have paid my subscription to Wizlabs for a year to study and learn about cloud computing. The courses here are cheap and I've read some great reviews.Here are the chapters of the online course
 
 {% page-ref page="cloud-concepts/" %}
 
 {% page-ref page="aws-core-services-part-1/" %}
+
+![](../../.gitbook/assets/image%20%2843%29.png)
+
+![](../../.gitbook/assets/image%20%2842%29.png)
 
 ## What the Exam marks for
 

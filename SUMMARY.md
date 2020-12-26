@@ -18,7 +18,6 @@
     * [14. Lab - SImple Storage Service Part 2](certifications/aws-cloud-practioner/aws-core-services-part-1/14.-lab-simple-storage-service-part-2.md)
     * [13. Lab - Simple Storage Service](certifications/aws-cloud-practioner/aws-core-services-part-1/13.-lab-simple-storage-service.md)
     * [12. Simple Storage Service](certifications/aws-cloud-practioner/aws-core-services-part-1/12.-simple-storage-service.md)
-* [Wizlabs](certifications/wizlabs.md)
 
 ## Testing Environments
 
