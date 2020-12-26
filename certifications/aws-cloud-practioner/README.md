@@ -10,6 +10,26 @@ I've bitten the bullet and have paid my subscription to Wizlabs for a year to st
 
 {% page-ref page="aws-core-services-part-1/" %}
 
+{% page-ref page="aws-core-services-part-2.md" %}
+
+{% page-ref page="aws-core-services-part-3.md" %}
+
+{% page-ref page="security-and-monitoring.md" %}
+
+{% page-ref page="additional-services.md" %}
+
+{% page-ref page="cloud-architecture-design.md" %}
+
+
+
+
+
+
+
+
+
+
+
 ![](../../.gitbook/assets/image%20%2843%29.png)
 
 ![](../../.gitbook/assets/image%20%2842%29.png)

@@ -5,7 +5,6 @@
 ## Courses <a id="certifications"></a>
 
 * [AWS Cloud Practioner Course](certifications/aws-cloud-practioner/README.md)
-  * [Cloud Architecture Design](certifications/aws-cloud-practioner/cloud-architecture-design.md)
   * [Cloud Concepts](certifications/aws-cloud-practioner/cloud-concepts/README.md)
     * [4. What is the Cloud](certifications/aws-cloud-practioner/cloud-concepts/what-is-the-cloud.md)
     * [5. Amazon Web Service](certifications/aws-cloud-practioner/cloud-concepts/amazon-web-service.md)
@@ -19,6 +18,11 @@
     * [14. Lab - SImple Storage Service Part 2](certifications/aws-cloud-practioner/aws-core-services-part-1/14.-lab-simple-storage-service-part-2.md)
     * [13. Lab - Simple Storage Service](certifications/aws-cloud-practioner/aws-core-services-part-1/13.-lab-simple-storage-service.md)
     * [12. Simple Storage Service](certifications/aws-cloud-practioner/aws-core-services-part-1/12.-simple-storage-service.md)
+  * [AWS Core Services - Part 2](certifications/aws-cloud-practioner/aws-core-services-part-2.md)
+  * [AWS Core Services - Part 3](certifications/aws-cloud-practioner/aws-core-services-part-3.md)
+  * [Security and Monitoring](certifications/aws-cloud-practioner/security-and-monitoring.md)
+  * [Additional Services](certifications/aws-cloud-practioner/additional-services.md)
+  * [Cloud Architecture Design](certifications/aws-cloud-practioner/cloud-architecture-design.md)
 
 ## Testing Environments
 
