@@ -4,17 +4,11 @@ description: wizlabs.com
 
 # AWS Cloud Practioner Course
 
-Here are the articles in this section:
+Here are the chapters of the online course
 
 {% page-ref page="cloud-concepts/" %}
 
 {% page-ref page="aws-core-services-part-1/" %}
-
-
-
-
-
-## 
 
 ## What the Exam marks for
 
