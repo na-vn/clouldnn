@@ -1,6 +1,8 @@
 # Home
 
-I have over 10 years’ experience in the Information Technology & Services industry. I have worked in both public and private sectors, focusing on Windows Server operating systems, virtualization, hardware, networks and automation through a mixture of greenfield and brownfield projects.This is a blog to document my journey with my AWS Cloud Practitioner
+I am an IT Professional with an Analyst, Engineering and Systems Administration background working previously from medium to large enterprise environments. I am based in Melbourne, Australia.
 
-![](.gitbook/assets/image%20%283%29.png)
+I have finally  found interest and passion towards Cloud services. I have created this blog to demonstrate my knowledge and to focus more on my development towards my IT career.
+
+
 
