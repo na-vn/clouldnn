@@ -5,6 +5,7 @@
 ## Courses <a id="certifications"></a>
 
 * [AWS Cloud Practioner Course](certifications/aws-cloud-practioner/README.md)
+  * [Cloud Architecture Design](certifications/aws-cloud-practioner/cloud-architecture-design.md)
   * [Cloud Concepts](certifications/aws-cloud-practioner/cloud-concepts/README.md)
     * [4. What is the Cloud](certifications/aws-cloud-practioner/cloud-concepts/what-is-the-cloud.md)
     * [5. Amazon Web Service](certifications/aws-cloud-practioner/cloud-concepts/amazon-web-service.md)
