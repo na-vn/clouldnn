@@ -1,6 +1,6 @@
 # AWS Core Services - Part 1
 
-Here are the articles in this chapter:
+### Here are the articles in this chapter:
 
 {% page-ref page="12.-simple-storage-service.md" %}
 
