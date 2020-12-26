@@ -8,9 +8,5 @@ I am an IT Professional with an IT Analyst, Engineering and Systems Administrati
 
 I have finally found interest and passion towards Cloud services.
 
-I will be updating this blog, focusing on educating and developing, expanding and testing Cloud services in Lab environments and demonstrating cloud infrastructure.
-
-
-
-
+I will be updating this blog, focusing on educating and developing, expanding and testing Cloud services in Lab environments and demonstrating cloud infrastructure
 
