@@ -8,7 +8,7 @@ I've bitten the bullet and have paid my subscription to Wizlabs for a year to st
 
 I am giving myself until march to sit the exam! Best wishes
 
-![](../../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%285%29.png)
 
-![](../../.gitbook/assets/image.png)
+![](../.gitbook/assets/image.png)
 
