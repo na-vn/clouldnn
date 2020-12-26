@@ -2,7 +2,7 @@
 
 * [Home](README.md)
 
-## Certifications
+## Courses <a id="certifications"></a>
 
 * [Wizlabs](certifications/wizlabs/README.md)
   * [AWS Cloud Practioner Course](certifications/wizlabs/aws-cloud-practioner/README.md)
