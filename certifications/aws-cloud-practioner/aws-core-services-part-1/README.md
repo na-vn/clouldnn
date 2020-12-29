@@ -10,6 +10,30 @@
 
 {% page-ref page="15.-lab-s3-static-web-site-hosting.md" %}
 
+{% page-ref page="16.-amazon-glacier.md" %}
+
+{% page-ref page="17.-lab-amazon-glacier.md" %}
+
+{% page-ref page="18.-virtual-private-cloud.md" %}
+
+{% page-ref page="19.-lab-virtual-private-cloud.md" %}
+
+{% page-ref page="20-elastic-compute-cloud-service.md" %}
+
+{% page-ref page="21-elastic-compute-cloud.md" %}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
