@@ -14,6 +14,8 @@
     * [9. AWS Support](certifications/aws-cloud-practioner/cloud-concepts/9.-aws-support.md)
     * [10. Summary](certifications/aws-cloud-practioner/cloud-concepts/10.-summary.md)
   * [AWS Core Services - Part 1](certifications/aws-cloud-practioner/aws-core-services-part-1/README.md)
+    * [19. Lab - Virtual Private Cloud](certifications/aws-cloud-practioner/aws-core-services-part-1/19.-lab-virtual-private-cloud.md)
+    * [18. Virtual Private Cloud](certifications/aws-cloud-practioner/aws-core-services-part-1/18.-virtual-private-cloud.md)
     * [17. Lab - Amazon Glacier](certifications/aws-cloud-practioner/aws-core-services-part-1/17.-lab-amazon-glacier.md)
     * [16. Amazon Glacier](certifications/aws-cloud-practioner/aws-core-services-part-1/16.-amazon-glacier.md)
     * [15. Lab - S3 - Static Web Site Hosting](certifications/aws-cloud-practioner/aws-core-services-part-1/15.-lab-s3-static-web-site-hosting.md)
