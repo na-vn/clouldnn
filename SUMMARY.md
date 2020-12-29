@@ -14,6 +14,7 @@
     * [9. AWS Support](certifications/aws-cloud-practioner/cloud-concepts/9.-aws-support.md)
     * [10. Summary](certifications/aws-cloud-practioner/cloud-concepts/10.-summary.md)
   * [AWS Core Services - Part 1](certifications/aws-cloud-practioner/aws-core-services-part-1/README.md)
+    * [21 - Elastic Compute Cloud](certifications/aws-cloud-practioner/aws-core-services-part-1/21-elastic-compute-cloud.md)
     * [20 - Elastic Compute Cloud Service](certifications/aws-cloud-practioner/aws-core-services-part-1/20-elastic-compute-cloud-service.md)
     * [19. Lab - Virtual Private Cloud](certifications/aws-cloud-practioner/aws-core-services-part-1/19.-lab-virtual-private-cloud.md)
     * [18. Virtual Private Cloud](certifications/aws-cloud-practioner/aws-core-services-part-1/18.-virtual-private-cloud.md)
