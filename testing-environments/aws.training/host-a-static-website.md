@@ -8,7 +8,7 @@ Static websites deliver HTML, JavaScript, images, video and other files to your 
 
 **Set up continuous deployment:** Amplify offers a Git-based workflow with continuous deployment, allowing you to automatically deploy updates to your site on every code commit.
 
-We need to create a repository in GitHub called amplifyapp then initialize then push the new application to github repo 
+We need to create a repository in GitHub called amplify-app then initialise then push the new application to GitHub repo 
 
 ![](../../.gitbook/assets/screenshot-from-2020-11-08-08-48-20.png)
 
@@ -26,13 +26,13 @@ git push -u origin main
 
 This creates the files listed in the application then which it pushes onto the repo.
 
-Open on to AWS Amplyfy and click Deploy, Conect yout Github account and local the 
+Open on to AWS Amplify and click Deploy, Connect your Github account and local the 
 
 ![](../../.gitbook/assets/screenshot-from-2020-11-08-08-57-04.png)
 
 ![](../../.gitbook/assets/screenshot-from-2020-11-08-08-57-19.png)
 
-Once loggeed in choose Amplify repo.This will the verfiy the code block and select save and deploy.
+Once logged in choose Amplify repo.This will the verify the code block and select save and deploy.
 
 ![](../../.gitbook/assets/screenshot-from-2020-11-08-10-14-07.png)
 
