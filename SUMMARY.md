@@ -48,3 +48,7 @@
   * [Module 1: Introduction to the AWS Cloud](other/aws-amazone-awsome-day/module-1-introduction-to-the-aws-cloud.md)
 * [AWS re:Invent Virtual Conference](other/aws-re-invent-virtual-conference.md)
 
+## Projects
+
+* [Untitled](projects/untitled.md)
+
