@@ -50,5 +50,5 @@
 
 ## Projects
 
-* [Making memes with AWS Ampfliy](projects/untitled.md)
+* [Making memes with AWS Ampfliy](projects/making-memes-with-aws-ampfliy.md)
 
