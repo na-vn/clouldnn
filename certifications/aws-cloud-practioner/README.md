@@ -18,7 +18,7 @@ I've bitten the bullet and have paid my subscription to Wizlabs for a year to st
 
 {% page-ref page="additional-services.md" %}
 
-{% page-ref page="cloud-architecture-design.md" %}
+{% page-ref page="cloud-architecture-design/" %}
 
 
 

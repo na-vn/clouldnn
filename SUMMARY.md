@@ -14,8 +14,6 @@
     * [9. AWS Support](certifications/aws-cloud-practioner/cloud-concepts/9.-aws-support.md)
     * [10. Summary](certifications/aws-cloud-practioner/cloud-concepts/10.-summary.md)
   * [AWS Core Services - Part 1](certifications/aws-cloud-practioner/aws-core-services-part-1/README.md)
-    * [31 - Service Continuity](certifications/aws-cloud-practioner/aws-core-services-part-1/31-service-continuity.md)
-    * [30 - Agenda](certifications/aws-cloud-practioner/aws-core-services-part-1/30-agenda.md)
     * [29 - Summary](certifications/aws-cloud-practioner/aws-core-services-part-1/29-summary.md)
     * [28 - Benefits of moving to the cloud](certifications/aws-cloud-practioner/aws-core-services-part-1/28-benefits-of-moving-to-the-cloud.md)
     * [27 - Lab - Clean up resources](certifications/aws-cloud-practioner/aws-core-services-part-1/27-lab-clean-up-resources.md)
@@ -34,11 +32,13 @@
     * [14. Lab - SImple Storage Service Part 2](certifications/aws-cloud-practioner/aws-core-services-part-1/14.-lab-simple-storage-service-part-2.md)
     * [13. Lab - Simple Storage Service](certifications/aws-cloud-practioner/aws-core-services-part-1/13.-lab-simple-storage-service.md)
     * [12. Simple Storage Service](certifications/aws-cloud-practioner/aws-core-services-part-1/12.-simple-storage-service.md)
+  * [Cloud Architecture Design](certifications/aws-cloud-practioner/cloud-architecture-design/README.md)
+    * [31 - Service Continuity](certifications/aws-cloud-practioner/cloud-architecture-design/31-service-continuity.md)
+    * [30 - Agenda](certifications/aws-cloud-practioner/cloud-architecture-design/30-agenda.md)
   * [AWS Core Services - Part 2](certifications/aws-cloud-practioner/aws-core-services-part-2.md)
   * [AWS Core Services - Part 3](certifications/aws-cloud-practioner/aws-core-services-part-3.md)
   * [Security and Monitoring](certifications/aws-cloud-practioner/security-and-monitoring.md)
   * [Additional Services](certifications/aws-cloud-practioner/additional-services.md)
-  * [Cloud Architecture Design](certifications/aws-cloud-practioner/cloud-architecture-design.md)
 
 ## Testing Environments
 
