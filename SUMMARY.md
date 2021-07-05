@@ -14,6 +14,7 @@
     * [9. AWS Support](certifications/aws-cloud-practioner/cloud-concepts/9.-aws-support.md)
     * [10. Summary](certifications/aws-cloud-practioner/cloud-concepts/10.-summary.md)
   * [AWS Core Services - Part 1](certifications/aws-cloud-practioner/aws-core-services-part-1/README.md)
+    * [24 - Elastic Block Storage](certifications/aws-cloud-practioner/aws-core-services-part-1/24-elastic-block-storage.md)
     * [23 - Labs - EC2 Pricing models](certifications/aws-cloud-practioner/aws-core-services-part-1/23-labs-ec2-pricing-models.md)
     * [22 - Labs - AWS Marketplace](certifications/aws-cloud-practioner/aws-core-services-part-1/22-labs-aws-marketplace.md)
     * [21 - Elastic Compute Cloud](certifications/aws-cloud-practioner/aws-core-services-part-1/21-elastic-compute-cloud.md)
