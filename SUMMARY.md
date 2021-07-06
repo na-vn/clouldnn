@@ -41,6 +41,7 @@
     * [31 - Service Continuity](certifications/aws-cloud-practioner/cloud-architecture-design/31-service-continuity.md)
     * [30 - Agenda](certifications/aws-cloud-practioner/cloud-architecture-design/30-agenda.md)
   * [AWS Core Services - Part 2](certifications/aws-cloud-practioner/aws-core-services-part-2/README.md)
+    * [43 - Labs - Autoscaling](certifications/aws-cloud-practioner/aws-core-services-part-2/43-labs-autoscaling.md)
     * [42 - Autoscaling](certifications/aws-cloud-practioner/aws-core-services-part-2/42-autoscaling.md)
     * [41 - Lab - Route53](certifications/aws-cloud-practioner/aws-core-services-part-2/41-lab-route53.md)
     * [40 - Route53](certifications/aws-cloud-practioner/aws-core-services-part-2/40-route53.md)
