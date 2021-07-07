@@ -55,7 +55,11 @@
     * [39 - Lab - Elastic Load Balancer](certifications/aws-cloud-practioner/aws-core-services-part-2/39-lab-elastic-load-balancer.md)
     * [38 - Elastic Load Balancer](certifications/aws-cloud-practioner/aws-core-services-part-2/38-elastic-load-balancer.md)
     * [37 - Agenda](certifications/aws-cloud-practioner/aws-core-services-part-2/37-agenda.md)
-  * [AWS Core Services - Part 3](certifications/aws-cloud-practioner/aws-core-services-part-3.md)
+  * [AWS Core Services - Part 3](certifications/aws-cloud-practioner/aws-core-services-part-3/README.md)
+    * [54 - Lab - Cloudformation](certifications/aws-cloud-practioner/aws-core-services-part-3/54-lab-cloudformation.md)
+    * [53 - Lab - Lambda](certifications/aws-cloud-practioner/aws-core-services-part-3/53-lab-lambda.md)
+    * [52 - AWS Lambda](certifications/aws-cloud-practioner/aws-core-services-part-3/52-aws-lambda.md)
+    * [51 - Agenda](certifications/aws-cloud-practioner/aws-core-services-part-3/51-agenda.md)
   * [Security and Monitoring](certifications/aws-cloud-practioner/security-and-monitoring.md)
   * [Additional Services](certifications/aws-cloud-practioner/additional-services.md)
 

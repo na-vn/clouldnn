@@ -12,7 +12,7 @@ I've bitten the bullet and have paid my subscription to Wizlabs for a year to st
 
 {% page-ref page="aws-core-services-part-2/" %}
 
-{% page-ref page="aws-core-services-part-3.md" %}
+{% page-ref page="aws-core-services-part-3/" %}
 
 {% page-ref page="security-and-monitoring.md" %}
 
