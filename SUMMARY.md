@@ -67,7 +67,11 @@
     * [53 - Lab - Lambda](certifications/aws-cloud-practioner/aws-core-services-part-3/53-lab-lambda.md)
     * [52 - AWS Lambda](certifications/aws-cloud-practioner/aws-core-services-part-3/52-aws-lambda.md)
     * [51 - Agenda](certifications/aws-cloud-practioner/aws-core-services-part-3/51-agenda.md)
-  * [Security and Monitoring](certifications/aws-cloud-practioner/security-and-monitoring.md)
+  * [Security and Monitoring](certifications/aws-cloud-practioner/security-and-monitoring/README.md)
+    * [65 - Lab Identity and Access Management](certifications/aws-cloud-practioner/security-and-monitoring/65-lab-identity-and-access-management.md)
+    * [64 - Identity and Access Management](certifications/aws-cloud-practioner/security-and-monitoring/64-identity-and-access-management.md)
+    * [63 - Share responsibility model](certifications/aws-cloud-practioner/security-and-monitoring/63-share-responsibility-model.md)
+    * [62 - Agenda](certifications/aws-cloud-practioner/security-and-monitoring/62-agenda.md)
   * [Additional Services](certifications/aws-cloud-practioner/additional-services.md)
 
 ## Testing Environments

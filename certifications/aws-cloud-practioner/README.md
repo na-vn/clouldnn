@@ -14,7 +14,7 @@ I've bitten the bullet and have paid my subscription to Wizlabs for a year to st
 
 {% page-ref page="aws-core-services-part-3/" %}
 
-{% page-ref page="security-and-monitoring.md" %}
+{% page-ref page="security-and-monitoring/" %}
 
 {% page-ref page="additional-services.md" %}
 
