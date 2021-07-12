@@ -81,6 +81,10 @@
     * [63 - Share responsibility model](certifications/aws-cloud-practioner/security-and-monitoring/63-share-responsibility-model.md)
     * [62 - Agenda](certifications/aws-cloud-practioner/security-and-monitoring/62-agenda.md)
   * [Additional Services](certifications/aws-cloud-practioner/additional-services/README.md)
+    * [79 - Lab - AWS Redshift](certifications/aws-cloud-practioner/additional-services/79-lab-aws-redshift.md)
+    * [78 - Lab - Personal Health Dashboard](certifications/aws-cloud-practioner/additional-services/78-lab-personal-health-dashboard.md)
+    * [77 - Lab - AWS Artifacts](certifications/aws-cloud-practioner/additional-services/77-lab-aws-artifacts.md)
+    * [76 - Labs - AWS Certificate Manager](certifications/aws-cloud-practioner/additional-services/76-labs-aws-certificate-manager.md)
     * [75 - Labs - AWS OpsWorks](certifications/aws-cloud-practioner/additional-services/75-labs-aws-opsworks.md)
     * [74 - Lab - Amazon Rekognition](certifications/aws-cloud-practioner/additional-services/74-lab-amazon-rekognition.md)
 
