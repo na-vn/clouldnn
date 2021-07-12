@@ -80,7 +80,8 @@
     * [64 - Identity and Access Management](certifications/aws-cloud-practioner/security-and-monitoring/64-identity-and-access-management.md)
     * [63 - Share responsibility model](certifications/aws-cloud-practioner/security-and-monitoring/63-share-responsibility-model.md)
     * [62 - Agenda](certifications/aws-cloud-practioner/security-and-monitoring/62-agenda.md)
-  * [Additional Services](certifications/aws-cloud-practioner/additional-services.md)
+  * [Additional Services](certifications/aws-cloud-practioner/additional-services/README.md)
+    * [74 - Lab - Amazon Rekognition](certifications/aws-cloud-practioner/additional-services/74-lab-amazon-rekognition.md)
 
 ## Testing Environments
 
