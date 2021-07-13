@@ -81,6 +81,8 @@
     * [63 - Share responsibility model](certifications/aws-cloud-practioner/security-and-monitoring/63-share-responsibility-model.md)
     * [62 - Agenda](certifications/aws-cloud-practioner/security-and-monitoring/62-agenda.md)
   * [Additional Services](certifications/aws-cloud-practioner/additional-services/README.md)
+    * [87 - Cloud Computing deployment models](certifications/aws-cloud-practioner/additional-services/87-cloud-computing-deployment-models.md)
+    * [86 - Cloud Service Models - IaaS, PaaS and Saas](certifications/aws-cloud-practioner/additional-services/86-cloud-service-models-iaas-paas-and-saas.md)
     * [85 - Lab - AWS CloudHSM](certifications/aws-cloud-practioner/additional-services/85-lab-aws-cloudhsm.md)
     * [84 - Lab - AWS X-ray](certifications/aws-cloud-practioner/additional-services/84-lab-aws-x-ray.md)
     * [83 - Lab - AWS Cloud9](certifications/aws-cloud-practioner/additional-services/83-lab-aws-cloud9.md)
