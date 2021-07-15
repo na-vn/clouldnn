@@ -6,7 +6,7 @@
 * Used to automate deployments 
 * You can automate deployments to Amazon EC2 Instances, On Premise instances, Lambda function or Amazon ECS Services
 
-![](../../../.gitbook/assets/image%20%2863%29.png)
+![](../../../.gitbook/assets/image%20%2866%29.png)
 
 You can deploy code from S3 buckets, Github Repo, Bitbucket repo and deploy them in CodeDeploy over to EC2 instance, Lambda function or on prem servers.
 

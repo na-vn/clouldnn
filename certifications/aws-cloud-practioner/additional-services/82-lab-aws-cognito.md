@@ -24,7 +24,7 @@ There are 2 components with this service. User pools and Identity pools.
 
 When creating a user pool there are many options to configure. Name, attributes, policies, MFA verifications, Messages, tags, devices and more. Once created you can go ahead and add users and groups. This is used as an administrator perspective. 
 
-![](../../../.gitbook/assets/image%20%2861%29.png)
+![](../../../.gitbook/assets/image%20%2862%29.png)
 
 
 

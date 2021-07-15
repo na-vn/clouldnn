@@ -30,7 +30,7 @@
 * Here the advantage is that you dont have to manage the software. 
 * A common example of a SaaS is email service 
 
-![](../../../.gitbook/assets/image%20%2865%29.png)
+![](../../../.gitbook/assets/image%20%2868%29.png)
 
 
 

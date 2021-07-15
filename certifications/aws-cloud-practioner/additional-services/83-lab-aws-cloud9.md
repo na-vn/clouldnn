@@ -13,9 +13,9 @@ When creating the environment, Cloud9 will create an EC2 instance and host the I
 * You can choose the underlying OS such as Linux or Ubuntu
 * You can also setup your own server
 
-![](../../../.gitbook/assets/image%20%2862%29.png)
+![](../../../.gitbook/assets/image%20%2863%29.png)
 
 When creating the environment, they give you options to create the name, what compute type, OS and also Cost saving option which means that if its not running the instance will hibernate. Once you have created the environment, you will then be opened with the IDE. You can create scripts from templates and run scripts etc. 
 
-![](../../../.gitbook/assets/image%20%2864%29.png)
+![](../../../.gitbook/assets/image%20%2867%29.png)
 
