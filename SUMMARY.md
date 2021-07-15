@@ -81,6 +81,7 @@
     * [63 - Share responsibility model](certifications/aws-cloud-practioner/security-and-monitoring/63-share-responsibility-model.md)
     * [62 - Agenda](certifications/aws-cloud-practioner/security-and-monitoring/62-agenda.md)
   * [Additional Services](certifications/aws-cloud-practioner/additional-services/README.md)
+    * [91 - Identity Access management Best Practice](certifications/aws-cloud-practioner/additional-services/91-identity-access-management-best-practice.md)
     * [90 - Lab - Using IAM Roles](certifications/aws-cloud-practioner/additional-services/90-lab-using-iam-roles.md)
     * [89 - More on Availability zones](certifications/aws-cloud-practioner/additional-services/89-more-on-availability-zones.md)
     * [88  - Sex Advantages of Cloud Computing](certifications/aws-cloud-practioner/additional-services/88-sex-advantages-of-cloud-computing.md)
