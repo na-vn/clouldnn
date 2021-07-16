@@ -81,6 +81,7 @@
     * [63 - Share responsibility model](certifications/aws-cloud-practioner/security-and-monitoring/63-share-responsibility-model.md)
     * [62 - Agenda](certifications/aws-cloud-practioner/security-and-monitoring/62-agenda.md)
   * [Additional Services](certifications/aws-cloud-practioner/additional-services/README.md)
+    * [96 - Lab - EBS Snapshots](certifications/aws-cloud-practioner/additional-services/96-lab-ebs-snapshots.md)
     * [95 - AWS S3 Storage class](certifications/aws-cloud-practioner/additional-services/95-aws-s3-storage-class.md)
     * [94 - AWS Lambda](certifications/aws-cloud-practioner/additional-services/94-aws-lambda.md)
     * [93 - Lab - Using Elastic Container Service](certifications/aws-cloud-practioner/additional-services/93-lab-using-elastic-container-service.md)

@@ -46,7 +46,9 @@
 * Data cost are much lower
 * Retrieve data can take time 
 * Data retrieve can take minutes to hours.
-* 
+
+![](../../../.gitbook/assets/image%20%2873%29.png)
+
 
 
 
