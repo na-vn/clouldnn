@@ -9,7 +9,7 @@
 * In Amazon ECS, you can define the containers you run based on task definitions 
 * AWS Fargate is a technology used with AWS ECS. This is used to run containers without having to manage servers or clusters 
 
-![](../../../.gitbook/assets/image%20%2871%29.png)
+![](../../../.gitbook/assets/image%20%2873%29.png)
 
 
 

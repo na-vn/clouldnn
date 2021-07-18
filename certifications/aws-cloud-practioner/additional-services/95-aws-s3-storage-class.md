@@ -47,7 +47,7 @@
 * Retrieve data can take time 
 * Data retrieve can take minutes to hours.
 
-![](../../../.gitbook/assets/image%20%2873%29.png)
+![](../../../.gitbook/assets/image%20%2879%29.png)
 
 
 
