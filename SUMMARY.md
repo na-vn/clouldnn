@@ -81,6 +81,7 @@
     * [63 - Share responsibility model](certifications/aws-cloud-practioner/security-and-monitoring/63-share-responsibility-model.md)
     * [62 - Agenda](certifications/aws-cloud-practioner/security-and-monitoring/62-agenda.md)
   * [Additional Services](certifications/aws-cloud-practioner/additional-services/README.md)
+    * [107 - Lab - AWS Config Service](certifications/aws-cloud-practioner/additional-services/107-lab-aws-config-service.md)
     * [106 - AWS Personal Health Dashboard](certifications/aws-cloud-practioner/additional-services/106-aws-personal-health-dashboard.md)
     * [105 - Lab - AWS Database migration service](certifications/aws-cloud-practioner/additional-services/105-lab-aws-database-migration-service.md)
     * [104 - AWS Elastic Cache](certifications/aws-cloud-practioner/additional-services/104-aws-elastic-cache.md)
